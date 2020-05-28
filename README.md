@@ -1,5 +1,7 @@
 # Check Exchange NTFS Cluster Size
  Check Exchange NTFS Cluster Size
+ 
+ 
 .SYNOPSIS
 
 Purpose of this script to review the NTFS allocation size on all disks which are attached to Exchange servers.  WMI is used to query for the the volume information.
