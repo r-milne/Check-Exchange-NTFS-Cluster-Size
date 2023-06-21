@@ -15,7 +15,8 @@ The output format to the CSV file will have one line per disk.  Each line will h
 The CSV file can be easily opened, sorted and filtered in Excel. 
    
 Filters can be adjusted to suit the particular task that is required.  There are multiple examples here:
-http://blogs.technet.com/b/rmilne/archive/2014/03/24/powershell-filtering-examples.aspx
+https://blog.rmilne.ca/2014/03/24/exchange-powershell-filtering-examples/
+
 An empty array is declared that will be used to hold the data gathered during each iteration.
 This allows for the additional information to be easily added on, and then either echo it to the screen or export to a CSV file
 A custom PSObject is used so that we can add data to it from various sources, Get-Mailbox, Get-MailboxStatistics, Get-ADUser etc.
@@ -23,7 +24,7 @@ There is no limit to your creativity!
 The CSV is created in the $PWD which is the Present Working Directory, i.e. where the script is saved.  
 Please refer to this post for additional details:
 
-https://blogs.technet.microsoft.com/rmilne/2017/07/21/script-to-check-exchange-ntfs-cluster-size/ 
+https://blog.rmilne.ca/2014/03/24/exchange-powershell-filtering-examples/
 
  
 
